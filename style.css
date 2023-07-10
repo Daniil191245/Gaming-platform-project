@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --linear-gradient-background:#000000, #4A2800;
+    --net:#DC700059;
+    --text-color:#FFFFFF;
+    --when-hovering:#DC7000;
+    --black-color:#000000;
+    --cards-color:#C4C4C4;
+    --button-color:#FFFFFF1C;
+    --section-background-color:#000000A6;
+    --section-background-color-two:#0000008A;
+    --linear-gradient:#090300, #090300;
+    --color-footer:#070707;
+    --color-form:#1C140F;
+    --input-text:#898989;
+    --text-color:#E87D0E;
+    --button-color-header:#FA9021;
+    --button-color-hero:#FA8305, #FB9E3C;
+
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+}

@@ -32,7 +32,7 @@ ul,ol{
 body{
     font-family: 'Poppins', sans-serif;
 font-family: 'Rubik', sans-serif;
-background-color: #000000;
+background: linear-gradient(180deg, #000 20%, #4A2800 100%);
 }
 /* styling header */
 .header-inf{
@@ -238,10 +238,10 @@ color: var(--text-color-white);
     border-radius: 5px;
     margin-bottom: 157px;
 }
-.nvb{
+/* .nvb{
     background: linear-gradient(180deg, #000 0%, #4A2800 150%);
 backdrop-filter: blur(7px);
-}
+} */
 /* section four */
 .section-four{
     background-image: url(./game-img/rear.png);
@@ -288,6 +288,9 @@ line-height: 187.5%;
 color: var(--text-color-white);
 }
 /* styling section project cards */
+.two-section-pro-form{
+    background: linear-gradient(152deg, #090300 60%, rgba(9, 3, 0, 0.00) 100%);
+}
 .section-project{
     padding: 148px 0px;
 }
@@ -326,11 +329,10 @@ color: var(--text-color-white);
     display: flex;
     justify-content: center;
 }
-
 /* styling section forms */
-.section-form{
+/* .section-form{
     background: linear-gradient(-10deg, #2e1102 0%, rgba(9, 3, 0, 0.00) 100%);
-}
+} */
 .name-form-hero{
 font-family: Poppins;
 font-size: 30px;
@@ -412,19 +414,23 @@ color: var(--text-color-white);
     padding-bottom: 150px;
 }
 /* styling footer */
+.footer{
+    background: var(--color-footer);
+}
 .footer-cont{
     max-width: 1270px;
     margin: 0 auto;
-    padding: 70px 7px;
+    padding: 0px 7px;
 }
 .logotype-footer{
+    display: block;
     color: var(--text-color-white);
 font-family: Poppins;
 font-size: 29px;
 font-style: normal;
 font-weight: 800;
 line-height: 153.5%;
-margin-bottom: 15px;
+margin-bottom: 20px;
 }
 .text-footer{
     width: 372px;
@@ -438,9 +444,9 @@ color: var(--text-color-white);
 }
 .informatio-about{
     display: flex;
-   gap: 80px;
+   gap: 140px;
 }
-.footer{
+.footer-content{
     display: flex;
     gap: 80px;
     padding: 56px 0px;

@@ -21,6 +21,7 @@
     --text-color:#E87D0E;
     --button-color-header:#FA9021;
     --button-color-hero:#FA8305, #FB9E3C;
+    --bottom:#D2D2D2;
 }
 a{
     text-decoration: none;
@@ -39,7 +40,7 @@ background-color: #000000;
     align-items: center;
     max-width: 1315px;
     margin: 0 auto;
-    padding: 37px 15px;
+    padding: 37px 7px;
 }
 .logotype{
     color: var(--text-color-white);
@@ -284,5 +285,204 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 187.5%;
+color: var(--text-color-white);
+}
+/* styling section project cards */
+.section-project{
+    padding: 148px 0px;
+}
+.name-project{
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 187.5%;
+text-align: center;
+margin-bottom: 15px;
+color: var(--text-color-white);
+}
+.text-project{
+    width: 497px;
+    margin: 0 auto;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%;
+text-align: center;
+margin-bottom: 71px;
+color: var(--text-color-white);
+}
+/* list project img */
+.list-project{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px 12px;
+    margin-bottom: 72px;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+}
+.buttons-project{
+    display: flex;
+    justify-content: center;
+}
+
+/* styling section forms */
+.section-form{
+    background: linear-gradient(-10deg, #2e1102 0%, rgba(9, 3, 0, 0.00) 100%);
+}
+.name-form-hero{
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 187.5%;
+margin-bottom: 32px;
+color: var(--text-color-white);
+}
+.text-form-hero{
+    width: 545px;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%;
+margin-bottom: 74px;
+color: var(--text-color-white);
+}
+/* box form */
+.box-form{
+    width: 1170px;
+height: auto;
+display: flex;
+    border-radius: 15px;
+background: var(--color-form);
+}
+.name-form{
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 40px 0px 10px 56px;
+color: var(--text-color-white);
+}
+.text-form{
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0px 82px 42px 56px;
+color: var(--text-color-white);
+}
+input{
+    margin: 70px 0px;
+    border-radius: 8px;
+    outline: none;
+background: var(--text-color-white);
+}
+[placeholder="Enter email address"]{
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding: 14px 210px 14px 21px;
+color: var(--input-text);
+}
+.button-continu{
+    position: relative;
+    right: 115px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 22px;
+background: var(--when-hovering);
+}
+.button-continu span{
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+color: var(--text-color-white);
+}
+.section-form{
+    padding-bottom: 150px;
+}
+/* styling footer */
+.footer-cont{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 70px 7px;
+}
+.logotype-footer{
+    color: var(--text-color-white);
+font-family: Poppins;
+font-size: 29px;
+font-style: normal;
+font-weight: 800;
+line-height: 153.5%;
+margin-bottom: 15px;
+}
+.text-footer{
+    width: 372px;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 25px;
+color: var(--text-color-white);
+}
+.informatio-about{
+    display: flex;
+   gap: 80px;
+}
+.footer{
+    display: flex;
+    gap: 80px;
+    padding: 56px 0px;
+}
+.name-contact-footer{
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: var(--text-color-white);
+}
+.information{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--text-color-white);
+}
+.information-text{
+    width: 282px;
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--text-color-white);
+}
+.about-us>li{
+margin-bottom: 15px;
+}
+.text-copyright{
+    border-top: 1px solid var(--bottom);
+}
+.inf-text-copyright{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+padding: 30px 0px;
 color: var(--text-color-white);
 }

@@ -39,7 +39,7 @@ a{
 ul,ol{
     list-style: none;
 }
-.container{
+.container-two{
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 15px;

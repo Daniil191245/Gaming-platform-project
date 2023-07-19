@@ -272,7 +272,7 @@ backdrop-filter: blur(7px);
 } */
 /* section four */
 .section-four{
-    background-image: url(../game-img/rear.png);
+    background-image: url(/game-img/rear.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;

@@ -361,10 +361,6 @@ color: var(--text-color-white);
     justify-content: center;
 }
 /* styling section forms */
-.form-service{
-    background: linear-gradient(150deg, #050301 0%, #120A01 80%);
-    padding: 130px 0px;
-}
 .name-form-hero{
 font-family: Poppins;
 font-size: 30px;
@@ -1100,9 +1096,6 @@ color: var(--text-color-white);
 .video-list-item>li{
 margin-bottom: 20px;
 }
-.forms{
-    background: var(--forms-color);
-}
 /* styling big section */
 .big-section-information{
     display: flex;
@@ -1215,7 +1208,6 @@ border: 2px solid var( --color-cards-clints);
 .clients-information{
     display: flex;
     gap: 20px;
-    /* margin-right: 75px; */
     padding: 30px 0px 8px 30px;
 }
 .clients-information:nth-last-child(even){
@@ -1283,4 +1275,16 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 color: var(--text-color-white);
+}
+.form-service{
+    background: linear-gradient(150deg, #050301 0%, #120A01 80%);
+    padding: 130px 0px;
+}
+.forms{
+    background: var(--forms-color);
+}
+/*--------------------------------------------------------finish of the styling of the service section--------------------------------------------  */
+/* -----------------------------------------------starting to style the fourth page(page news)------------------------------------------------------ */
+.body-news{
+    background-color: #000;
 }

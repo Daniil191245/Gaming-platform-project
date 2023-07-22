@@ -1036,15 +1036,23 @@ color: var(--text-color-white);
         width: 1140px;
 height: 200px;
 border-radius: 10px;
-/* margin-bottom: 130px; */
 background: var(--back-color-section);
     }
     .number-information-list{
         display: flex;
+        justify-content: center;
         padding: 67px 91px;
     }
     .number-information-list>li:not(:last-child){
-        margin-right: 320px;
+        /* margin-right: 320px; */
+        padding-right: 130px;
+        border-right: 1px solid var(--text-color-white);
+    }
+    .number-information-list>li:nth-last-child(even){
+        padding-left: 100px;
+    }
+    .number-information-list>li:last-child{
+        padding-left: 100px;
     }
     .our-number{
 font-family: Rubik;

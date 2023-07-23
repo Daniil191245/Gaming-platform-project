@@ -1301,9 +1301,9 @@ color: var(--text-color-white);
 .news{
     margin-bottom: 74px;
 }
-.input-search{
+.search-input-hero{
     display: block;
-   /* width: 400px; */
+   width: 400px;
 height: 49px;
 border-radius: 10px;
 margin: 0 auto;
@@ -1316,7 +1316,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 189.5%;
 padding-left: 60px;
-padding-right: 150px;
     color: var(--text-color-white);
 }
 [placeholder="Search"]::placeholder{
@@ -1401,4 +1400,50 @@ color: var(--text-color-white);
 height: 0.7px;
     border-bottom: 1px solid var(--color-emphasis);
     color: var(--text-color-white);
+}
+/* styling news content */
+.hero-news-content{
+    display: flex;
+    gap: 72px;
+}
+.list-news{
+display: flex;
+}
+.list-news:not(:last-child){
+    margin-bottom: 60px;
+}
+.list-item-button{
+    display: flex;
+}
+.news-button{
+    width: 137.974px;
+height: 39.896px;
+margin-right: 16px;
+    background: #FF7C32;
+}
+.news-button>span{
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%;
+color: var(--text-color-white);
+}
+.number-news-time{
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%;
+padding-top: 5px;
+color: var(--text-color-white);
+}
+.news-name{
+    width: 390px;
+    font-family: Poppins;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--text-color-white);
 }

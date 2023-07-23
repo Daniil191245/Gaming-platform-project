@@ -28,6 +28,12 @@
     --place-clients:#4F5665;
     --list-button-text:#FFFCFC;
     --color-emphasis:#A5A5A5;
+    /* colors button news */
+    --button-news:#FF8484;
+    --color-button-three:#2351F5;
+    --button-news-two:#FF7C32;
+    --button-news-green:#23A54F;
+    --button-news-viollet:#9921C3;
 }
 :root{
     --color-hero-text:#E47500;
@@ -1296,7 +1302,10 @@ color: var(--text-color-white);
 /*--------------------------------------------------------finish of the styling of the service section--------------------------------------------  */
 /* -----------------------------------------------starting to style the fourth page(page news)------------------------------------------------------ */
 .body-news{
-    background-color: #000;
+    background: linear-gradient(161deg, #050301 0%, #150C01 100%);
+}
+.section-list-item-news{
+    padding: 120px 0px 0px;
 }
 .news{
     margin-bottom: 74px;
@@ -1349,7 +1358,7 @@ height: 48px;
 cursor: pointer;
 margin-right: 20px;
 margin-bottom: 20px;
-background: #2351F5;
+background: var(--color-button-three);
 }
 .button-smash>span{
     color: var(--list-button-text);
@@ -1405,6 +1414,7 @@ height: 0.7px;
 .hero-news-content{
     display: flex;
     gap: 72px;
+    padding: 100px 0px;
 }
 .list-news{
 display: flex;
@@ -1412,15 +1422,39 @@ display: flex;
 .list-news:not(:last-child){
     margin-bottom: 60px;
 }
+.list-news:nth-child(even) .news-button{
+    background-color: var(--color-button-three);
+}
+.list-news:first-child .news-button{
+    background-color: var(--button-news);
+}
+.list-news:last-child .news-button{
+    background-color: var(--button-news-viollet);
+}
+.list-news:nth-child(5n) .news-button{
+    background-color: var(--button-news-green);
+}
+.list-img-news{
+    border-radius: 20px;
+}
+.news-list-item{
+    margin-left: 30px;
+    padding: 30px 0px;
+}
 .list-item-button{
     display: flex;
+    margin-bottom: 25px;
 }
 .news-button{
     width: 137.974px;
 height: 39.896px;
 margin-right: 16px;
-    background: #FF7C32;
+cursor: pointer;
+    background: var(--button-news-two);
 }
+/* .news-button:first-child{
+    background-color: var(--button-news);
+} */
 .news-button>span{
 font-family: Poppins;
 font-size: 14px;

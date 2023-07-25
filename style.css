@@ -287,6 +287,7 @@ backdrop-filter: blur(7px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    padding: 100px 0px;
 }
 .name-text{
     width: 826px;
@@ -297,7 +298,7 @@ font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: 187.5%;
-padding: 93px 0px 25px;
+margin-bottom: 25px;
 color: var(--text-color-white);
 }
 .text-inform{
@@ -313,10 +314,31 @@ margin-bottom: 100px;
 color: var(--text-color-white);
 }
 .special-inf{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 78px 100px;
-    padding-bottom: 92px;
+    padding-bottom: 92px; */
+    /* max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px; */
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.card-prof>img{
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+.card-prof:nth-child(4n) img{
+    padding-left: 30px;
+}
+.card-prof:nth-child(5n) img{
+    padding-left: 30px;
+}
+.card-prof:last-child img{
+    padding-left: 30px;
 }
 .inf-prof{
 font-family: Poppins;
@@ -359,7 +381,7 @@ color: var(--text-color-white);
 .list-project{
     display: flex;
     flex-wrap: wrap;
-    gap: 33px 12px;
+    gap: 24px;
     margin-bottom: 72px;
     /* display: grid;
     grid-template-columns: repeat(3,1fr); */
@@ -1479,5 +1501,30 @@ font-size: 23px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+color: var(--text-color-white);
+}
+/* ---------------------------finish styling page news--------------------- */
+/* ---------------------------styling page forms---------------------------- */
+.form-information{
+    padding: 90px 0px;
+    background: var(--back-color-section);
+}
+.forms-tittle{
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 189.5%;
+text-align: center;
+color: var(--text-color-white);
+}
+.forms-tittle+p{
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 189.5%;
+text-align: center;
+margin-bottom: 80px;
 color: var(--text-color-white);
 }

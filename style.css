@@ -1573,17 +1573,6 @@ letter-spacing: -0.3px;
 color: var(--label-text-color);
 background: rgba(255, 255, 255, 0.07)
 }
-input[type="email"]{
-    font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-padding-left: 15px;
-font-weight: 500;
-line-height: 175.4%;
-letter-spacing: -0.3px;
-color: var(--label-text-color);
-background: rgba(255, 255, 255, 0.07)
-}
 .input-email{
     width: 671px;
 height: 56px;
@@ -1595,6 +1584,17 @@ height: 56px;
 border: 0.6px solid #CECECE;
 background: rgba(255, 255, 255, 0.07);
 }
+input[type="email"]{
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+padding-left: 15px;
+font-weight: 500;
+line-height: 175.4%;
+letter-spacing: -0.3px;
+color: var(--label-text-color);
+background: rgba(255, 255, 255, 0.07)
+}
 .texrea-message{
     display: block;
     width: 671px;
@@ -1603,7 +1603,6 @@ outline: none;
 margin-bottom: 50px;
 resize: none;
 border-radius: 9px;
-color: ;
 border: 0.6px solid #CECECE;
 background: rgba(255, 255, 255, 0.07);
 

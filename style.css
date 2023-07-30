@@ -1507,8 +1507,13 @@ color: var(--text-color-white);
 /* ---------------------------finish styling page news--------------------- */
 /* ---------------------------styling page forms---------------------------- */
 .form-information{
-    padding: 90px 0px;
+    padding: 60px 0px;
     background: var(--back-color-section);
+}
+.container-forms-inf{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .forms-tittle{
 font-family: Poppins;
@@ -1532,28 +1537,52 @@ color: var(--text-color-white);
 .input-name-information{
     display: flex;
 }
+.inputs-list:not(:last-child){
+    margin-right: 27PX;
+}
 label{
+    display: block;
 font-family: Poppins;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 175.4%;
 letter-spacing: -0.3px;
-/* margin-top: 40px; */
+margin-bottom: 5px;
 color: var(--label-text-color);
 }
-.input-name-information>input{
+.inputs-list>input{
     width: 322px;
-height: 56px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    border-radius: 9px;
-border: 0.6px solid #CECECE;
-background: rgba(255, 255, 255, 0.07);
+    height: 56px;
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+        border-radius: 9px;
+    border: 0.6px solid #CECECE;
+    background: rgba(255, 255, 255, 0.07);
 }
-.email-label{
-    margin-top: 40px;
+.inputs-list>input[type="text"]{
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+padding-left: 15px;
+font-weight: 500;
+line-height: 175.4%;
+letter-spacing: -0.3px;
+color: var(--label-text-color);
+background: rgba(255, 255, 255, 0.07)
+}
+input[type="email"]{
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+padding-left: 15px;
+font-weight: 500;
+line-height: 175.4%;
+letter-spacing: -0.3px;
+color: var(--label-text-color);
+background: rgba(255, 255, 255, 0.07)
 }
 .input-email{
     width: 671px;
@@ -1561,10 +1590,53 @@ height: 56px;
     display: block;
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
     border-radius: 9px;
 border: 0.6px solid #CECECE;
 background: rgba(255, 255, 255, 0.07);
 }
 .texrea-message{
     display: block;
+    width: 671px;
+height: 232px;
+outline: none;
+margin-bottom: 50px;
+resize: none;
+border-radius: 9px;
+color: ;
+border: 0.6px solid #CECECE;
+background: rgba(255, 255, 255, 0.07);
+
+}
+.texrea-message[name="text"]{
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+padding-top: 15px;
+padding-left: 15px;
+font-weight: 500;
+line-height: 175.4%;
+letter-spacing: -0.3px;
+color: var(--label-text-color);
+background: rgba(255, 255, 255, 0.07)
+}
+.button-form{
+    width: 193px;
+    height: 57px;
+    margin-left: 480px;
+    cursor: pointer;
+    border-radius: 10px;
+background: var(--when-hovering);
+}
+.button-form>span{
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 204.3%;
+color: var(--text-color-white);
+}
+.form-input-section{
+    padding: 150px 0px;
+    background: linear-gradient(162deg, #090501 0%, #120A01 100%);
 }

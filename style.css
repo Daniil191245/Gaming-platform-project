@@ -34,6 +34,7 @@
     --button-news-two:#FF7C32;
     --button-news-green:#23A54F;
     --button-news-viollet:#9921C3;
+    --label-text-color:#4F4F4F;
 }
 :root{
     --color-hero-text:#E47500;
@@ -1527,4 +1528,43 @@ line-height: 189.5%;
 text-align: center;
 margin-bottom: 80px;
 color: var(--text-color-white);
+}
+.input-name-information{
+    display: flex;
+}
+label{
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 175.4%;
+letter-spacing: -0.3px;
+/* margin-top: 40px; */
+color: var(--label-text-color);
+}
+.input-name-information>input{
+    width: 322px;
+height: 56px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 9px;
+border: 0.6px solid #CECECE;
+background: rgba(255, 255, 255, 0.07);
+}
+.email-label{
+    margin-top: 40px;
+}
+.input-email{
+    width: 671px;
+height: 56px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-radius: 9px;
+border: 0.6px solid #CECECE;
+background: rgba(255, 255, 255, 0.07);
+}
+.texrea-message{
+    display: block;
 }
